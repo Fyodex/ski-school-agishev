@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 /* montserrat-regular - latin_cyrillic */
 @font-face {
     font-family: 'Montserrat';
@@ -27,31 +29,72 @@
          url('../font/oswald-v48-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   
-  body{
+  body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
   }
  
 
 
 /* header */
-.btn{
-  font-family:'Montserrat',serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+.header {
+   background-color: rgba(102, 209, 255, 1)
+
+}
+
+.btn-invite {
+   font-family:'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.tel {
+   position: absolute;
+   width: 256px;
+   right: 81px;
+   
+
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 34px;
+   display: flex;
+   align-items: center;
+   text-align: center;
 }
 
 
 
-
 /* main */
-/* product */
 
+/* product */
+.product {
+   
+
+   
+}
+.product-title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+}
+.product-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    align-items: center;
+    text-align: center;
+}
 /* options */
 
 /* lead-block */
