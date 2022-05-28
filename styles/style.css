@@ -32,6 +32,7 @@
   
   body {
     font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
   }
  
 
@@ -76,19 +77,27 @@
 
 /* product */
 .product { 
-    background-color: rgba(6, 13, 16, 0.25);
+    background-color: #060d10;
+    color: #fff;
+    text-align: center;
     background-image: url('../images/promo.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+}    
+.product-fade {
+    background-color: rgba(6, 13, 16, 0.25);
+    text-shadow: 1px 1px 2px
 }
+
 .product-title {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
     line-height: 89px;
-    color: #fff;
+    
+    margin: 240px 81px 437px;
 }
 .product-desc {
     font-family: 'Montserrat', sans-serif;
@@ -99,9 +108,12 @@
 
     align-items: center;
     text-align: center;
-    color: #fff;
+    margin: 389px 190px 260px;
 }
 /* options */
+.options {
+    background-color: rgba(255, 255, 255, 1);
+}
 .options-title {
     font-family: 'Oswald';
     font-style: normal;
@@ -144,6 +156,10 @@
 }
 
 /* footer */
+.end {
+    background-color: #060d10;
+
+}
 .invite-end {
     width: 171px;
     font-family: 'Montserrat';
@@ -162,4 +178,5 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    color: #fff;
 }
