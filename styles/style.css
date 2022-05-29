@@ -171,6 +171,55 @@
     text-align: center;
     color: #fff;
 }
+.icon-gear {
+    display: block;
+    width: 220px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgba(0, 0, 0, 0.25);
+}
+.icon-tw {
+    display: block;
+    width: 220px;
+    height: 40px;
+    background-image: url('../images/social-icons-twitter.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #fff;
+}
+.icon-linkedin {
+    display: block;
+    width: 220px;
+    height: 40px;
+    background-image: url('../images/social-icons-linkedin.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #fff;
+}
+.icon-google {
+    display: block;
+    width: 220px;
+    height: 40px;
+    background-image: url('../images/social-icons-google.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #fff;
+}
+.icon-fb {
+    display: block;
+    width: 220px;
+    height: 40px;
+    background-image: url('../images/social-icons-fb.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #fff;
+}
 .copyright {
     width: 197px;
     font-family: 'Montserrat';
