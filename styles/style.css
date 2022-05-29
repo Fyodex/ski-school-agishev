@@ -29,6 +29,12 @@
  * {
     box-sizing: border-box;
  }
+ .container {
+     width: 1278px;
+     border: 1px solid red;
+     margin: 0 auto;
+
+ }
   
   body {
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +45,7 @@
 
 /* header */
 .start {
+
    background-color: rgba(102, 209, 255, 1)
 
 }
@@ -87,7 +94,7 @@
 }    
 .product-fade {
     background-color: rgba(6, 13, 16, 0.25);
-    text-shadow: 1px 1px 2px
+    text-shadow: 1px 1px 2px;
 }
 
 .product-title {
@@ -157,6 +164,7 @@
 
 /* footer */
 .end {
+    
     background-color: #060d10;
 
 }
