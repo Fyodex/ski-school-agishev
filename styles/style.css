@@ -106,7 +106,10 @@ body {
     background-position: center center;
     background-size: cover;
 }
-
+.product-wrap {
+    display: flex;
+    align-items: flex-end;
+}   
 .product-fade {
     background-color: rgba(6, 13, 16, 0.25);
     text-shadow: 1px 1px 2px;
@@ -138,7 +141,11 @@ body {
 .options {
     background-color: rgba(255, 255, 255, 1);
 }
-
+.options-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .options-title {
     font-family: 'Oswald';
     font-style: normal;
@@ -174,7 +181,9 @@ body {
     font-size: 48px;
     line-height: 167%;
 }
-
+.lead-block-wrap {
+   
+}
 .btn-lead {
     font-family: 'Montserrat';
     font-style: normal;
