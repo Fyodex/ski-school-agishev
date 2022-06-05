@@ -56,7 +56,7 @@ body {
 
 /* header */
 .header {
-    padding: 39px;
+    padding: 39px 0px;
     background-color: rgba(102, 209, 255, 1)
 }
 .header-wrap {
@@ -72,6 +72,7 @@ body {
     line-height: 29px;
     align-items: center;
     text-align: center;
+    padding: 7px 41px 9px 41px;
 }
 
 .img-logo {
@@ -90,6 +91,8 @@ body {
     font-weight: 500;
     font-size: 28px;
     line-height: 34px;
+    background-color: rgba(102, 209, 255, 1);
+    border-style: none;
 }
 
 
@@ -152,7 +155,10 @@ body {
     font-weight: 500;
     font-size: 48px;
     line-height: 167%;
-
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 170px;
+    margin-bottom: 100px;
 }
 
 .options-caption {
@@ -194,10 +200,9 @@ body {
 
 /* photo-lead */
 .photos-lead {
-    width: 297px;
-    height: 297px;
     object-fit: cover;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, );
+    padding-bottom: 180px;
 }
 
 /* footer */
@@ -205,6 +210,12 @@ body {
     padding: 43px;
     background-color: #060d10;
     color: #fff;
+}
+.footer-wrap {
+    display: flex;
+    justify-content:  ;
+    align-items: center;
+
 }
 
 .invite-footer {
@@ -228,7 +239,9 @@ body {
     color: rgba(0, 0, 0, 0.25);
 }
 
-.social-item {}
+.social-item {
+
+}
 
 .social-link {
     background-size: contain;
